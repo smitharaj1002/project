@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/dialogflowservice.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/facultydetails.tsx","./src/components/footer.tsx","./src/components/gallery.tsx","./src/components/homepage.tsx","./src/components/loginpage.tsx","./src/components/navbar.tsx","./src/components/placement.tsx","./src/components/signuppage.tsx"],"version":"5.6.2"}

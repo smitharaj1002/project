@@ -1,0 +1,148 @@
+/* Background and layout */
+.login-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* Align the login box to the right */
+    align-items: center;
+    background-image: url('/images/background-image.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the background covers the page */
+    background-position: center;
+  }
+  
+  /* College logo */
+  .college-logo {
+    display: block;
+    margin: 10px;
+    margin-left: 0%;
+    width: 450px; /* Adjust logo size */
+    margin-bottom: 20px;
+  }
+  
+  /* Login box styling */
+  .login-container {
+    width: 390px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    margin-right: 50px; /* Space from the right edge */
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Form fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup link */
+  .signup-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .signup-link:hover {
+    color: #0056b3;body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .login-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('/images/background-image.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        text-align: center;
+    }
+    
+    .college-logo {
+        display: inline;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .login-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .signup-link {
+        background: none;
+        border: none;
+        color: #007bff;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+  }
+  
